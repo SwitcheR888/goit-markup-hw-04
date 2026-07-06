@@ -3,6 +3,15 @@
     padding: 100px 0;
 }
 
+.footer .container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-left {
+    margin-right: 120px;
+}
+
 .footer .logo-part {
     color: #F4F4FD;
 }
@@ -12,7 +21,6 @@
     margin-bottom: 16px;
 }
 
-
 .footer-text {
     color: #F4F4FD;
     font-size: 16px;
@@ -20,4 +28,33 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     width: 264px;
+}
+
+.footer-social-title {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-item {}
+
+.footer-social-icon {}
+
+.footer-social-link {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    color: #F4F4FD;
+    background-color: #4D5AE5;
+    justify-content: center;
+    align-items: center;
 }
