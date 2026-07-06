@@ -23,15 +23,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    width: 112px;
+    width: 264px;
     height: 112px;
-
     border: 1px solid #8e8f99;
     border-radius: 4px;
-
     background-color: #f4f4fd;
-
     margin-bottom: 8px;
 }
 
