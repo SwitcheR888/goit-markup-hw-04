@@ -25,9 +25,9 @@
 
 .portfolio-item:hover {
     box-shadow:
-        0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-overlay {
@@ -50,8 +50,8 @@
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-item :hover .portfolio-overlay-text {
-    transform: translateY(0);
+.portfolio-item:hover .portfolio-overlay-text {
+    transform: translateY(0%);
 }
 
 .portfolio-content {
@@ -59,7 +59,6 @@
     border-left: 1px solid #E7E9FC;
     border-right: 1px solid #E7E9FC;
     border-bottom: 1px solid #E7E9FC;
-    border-color: #E7E9FC;
 }
 
 .portfolio-name {
